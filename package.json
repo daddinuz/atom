@@ -17,6 +17,7 @@
     "sources/atom.h",
     "sources/atom.c"
   ],
+  "makefile": "sources/build.cmake",
   "development": {
     "daddinuz/traits": "3.2.0",
     "daddinuz/traits-unit": "3.0.0"
