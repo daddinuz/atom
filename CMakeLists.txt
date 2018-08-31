@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.8)
 project(atom C)
 
 set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -Werror")
 
 # dependencies
 include_directories(deps)
